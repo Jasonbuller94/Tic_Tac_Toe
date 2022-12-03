@@ -1,0 +1,149 @@
+body {
+    background-color: black;
+}
+
+div.relative {
+    position: absolute;
+    top: 760px;
+    right:120px;
+}
+
+.hide-container {
+    display: none;
+}
+
+.header {
+    color: white;
+    text-align: center;
+    margin: 15px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.enter-players {
+    color: white;
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    position: relative;
+}
+
+.input-field {
+    border: 2px solid black;
+    outline: none;
+    padding: 4px 8px;
+    margin: 0 0 10px 4px;
+    font-size: 18px;
+}
+
+.input-field:focus {
+    border: 2px solid green;
+}
+
+.submit-btn {
+    border: 2px solid black;
+    padding: 8px 8px;
+    font-size: 18px;
+    width: 250px;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: white;
+}
+
+.submit-btn:active,
+.submit-btn:focus {
+    outline: none;
+    border: 2px solid green;
+}
+
+.submit-btn:hover {
+    background-color: whitesmoke;
+}
+
+.board___player-turn {
+    color:whitesmoke;
+    text-align: center;
+    margin: 10px 0 10px;
+    height: 54px;
+}
+
+.name--style {
+    color:green;
+    font-size: 22px;
+}
+
+.board__container {
+    width: 40%;
+    background-color: white;
+    margin: 0 auto;
+    font-size: 0;
+    border: 2px solid black;
+    box-shadow: 3px 3px 3px 0px black;
+}
+
+.board__cell {
+    width: calc(100% / 3);
+    display: inline-block;
+    font-size: 40px;
+    text-align: center;
+    border: 2px solid black;
+    padding: 20px;
+    vertical-align: top;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.board__cell--winner {
+    background-color: green;
+}
+
+.letter {
+    color:white;
+    position: relative;
+    top: 50%;
+    transform: translateY(50%);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.reset {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.reset--hidden {
+    display: none;
+}
+
+.replay-btn {
+    width: 25%;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    outline: none;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-top: 12px;
+    word-spacing: 3px;
+    background-color: white;
+}
+
+.replay-btn:hover,
+.replay-btn:active {
+    outline: none;
+    color: white;
+    background-color: black;
+}
+
+.congratulations {
+    font-size: 24px;
+}
+
+.u-r.winner {
+    font-size: 80px;
+    height: 18px;
+    line-height: 18px;
+    margin: 2px 0;
+}
+
+.replay-btn{
+    width: 50%;
+}
